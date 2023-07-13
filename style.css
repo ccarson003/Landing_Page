@@ -1,6 +1,9 @@
 
+
+
+
 .landing_page{
-    height: 1000px;
+    height: 1500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,9 +25,10 @@
     background-color: #1F2937;
     display: flex;
     flex: auto;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 50px;
     align-items: center;
+
 }
 
 .information{
@@ -86,10 +90,9 @@ ul{
     font-size: 24px;
     font-weight: bold;
 }
-
-h1 {
+.awesome {
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 48px;
   
 }
@@ -98,15 +101,13 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 370px;
-    height: 250px;
-    justify-content: center;
-    
+    gap: 10px;
 }
 
 .black_office{
     width: 450px;
     height: 250px;
-    margin-right: 120px;
+    
 }
 
 .intro_text button{
@@ -136,6 +137,10 @@ button{
 
 }
 
+.small_picture p{
+    text-align: center;
+}
+
 .small_picture img{
     width: 120px;
     height: 120px;
@@ -143,6 +148,7 @@ button{
     border-color:#3882F6;
     border-width: 3px;
     border-style: solid;
+    flex: auto;
     
     
 }
@@ -173,9 +179,27 @@ button{
     border-width: 2px;
     border-color: white;
 }
+.action{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.sentence{
+    font-size: 24px;
+    font-weight: bold;
+    align-self: start;
+}
+
+.thunder{
+    font-weight: bold;
+    text-align: end;
+}
 
 /*{
     border-style: solid;
     border-width: 5px;
     border-color: red;
 }
+
+/*Fix call to action block text so that it is stacked
